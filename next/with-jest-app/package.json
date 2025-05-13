@@ -5,7 +5,11 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "test:coverage": "jest --coverage",
+    "test:coverage:ci": "jest --coverage --ci",
+    "test:coverage:report": "jest --coverage --ci --reporters=default --reporters=jest-junit --reporters=html",
+    "test:update": "jest --updateSnapshot"
   },
   "dependencies": {
     "next": "latest",

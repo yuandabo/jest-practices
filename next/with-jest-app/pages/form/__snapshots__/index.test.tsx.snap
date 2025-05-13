@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form快照 1`] = `
+<DocumentFragment>
+  <label
+    for="username-input"
+  >
+    Username
+  </label>
+  <input
+    id="username-input"
+  />
+  <button>
+    提交
+  </button>
+  <span />
+</DocumentFragment>
+`;
